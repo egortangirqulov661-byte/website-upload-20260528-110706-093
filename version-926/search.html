@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索影片-亚洲最新影片</title>
+  <meta name="description" content="搜索亚洲最新影片片名、地区、类型、年份、标签和简介。">
+  <meta name="keywords" content="搜索影片,亚洲最新影片,最新亚洲影片,影片合集,高清影片,亚洲电影,在线观看">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="" data-root="">
+
+<header class="site-header" data-header>
+  <div class="nav-inner">
+    <a class="brand" href="index.html" aria-label="亚洲最新影片 首页">
+      <span class="brand-mark">影</span>
+      <span class="brand-text">亚洲最新影片</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类</a>
+      <a href="rankings.html">热播榜</a>
+      <a href="search.html">搜索</a>
+    </nav>
+    <form class="nav-search" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、地区、标签" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="展开导航" data-menu-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-panel" data-mobile-panel>
+    <a href="index.html">首页</a>
+    <a href="categories.html">分类总览</a>
+    <a href="rankings.html">热播榜</a>
+    <a href="search.html">搜索影片</a>
+  </div>
+</header>
+
+<main class="page-main">
+  <section class="page-hero search-hero">
+    <span class="eyebrow">Search</span>
+    <h1>搜索影片</h1>
+    <p>输入片名、地区、年份、类型或标签，快速定位站内影片详情。</p>
+    <form class="large-search" action="search.html" method="get" data-search-page-form>
+      <input type="search" name="q" placeholder="例如：悬疑、韩国、2024、家庭" autofocus>
+      <button type="submit">开始搜索</button>
+    </form>
+  </section>
+  <section class="search-status" data-search-status>请输入关键词开始搜索。</section>
+  <section class="movie-grid page-grid" data-search-results></section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">亚洲最新影片</div>
+      <p>整理亚洲最新影片内容，展示近期更新影片、类型片单和热门栏目。</p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类</a>
+      <a href="rankings.html">热播榜</a>
+      <a href="search.html">搜索</a>
+    </div>
+    <div class="footer-links compact">
+      <a href="category/asian-new.html">亚洲新片</a>
+      <a href="category/chinese-vision.html">华语影像</a>
+      <a href="category/japan-korea.html">日韩精选</a>
+      <a href="category/euro-american.html">欧美剧场</a>
+      <a href="category/suspense-crime.html">悬疑犯罪</a>
+      <a href="category/love-family.html">爱情家庭</a>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/search-index.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
